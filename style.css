@@ -1,18 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
-
-body{
+body {
     background: url("./img/pexels-eberhard-grossgasteiger-1367192.jpg");
 }
-.container{
+
+.container {
 
     background-color: rgb(245, 239, 233);
     width: 500px;
     border-radius: 10px;
     padding: 20px;
-    margin: 100px auto 0; 
+    margin: 100px auto 0;
 
 }
 
-img{
+img {
     height: 25px;
 }
