@@ -12,6 +12,7 @@ use local storage to not lose data when page is refreshed
 This project is licensed under the MIT License - see the LICENSE file for details.
 ## How to Use
 you can use this project, simply simply using your web browser, use the URL bellow :<br>
+https://cvinicius-7.github.io/Todo-List/
 
 
 ### Contact
