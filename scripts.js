@@ -5,23 +5,38 @@ const fullList = document.querySelector('.list-tasks');
 let tasks = [];
 
 function addTask() {
-    tasks.push(input.value);
-    renderTasks();
+    tasks.push({
+        task: input.value,
+        done: false
+    });
+    
     input.value = "";
+    renderTasks();
 }
 
 function renderTasks() {
     let newList = "";
-    tasks.forEach(task => {
+    tasks.forEach((item, index) => {
         newList = newList + `
-        <li class="task">
-                <img src="./img/checked.png" alt="Check">
-                <p>${task}</p>
-                <img src="./img/trash.png" alt="Lixeira">
+        <li class="task ${item.done && "complete"}">
+                <img src="./img/checked.png" alt="Check" onclick="taskDone(${index})">
+                <p>${item.task}</p>
+                <img src="./img/trash.png" alt="Lixeira" onclick="delItem(${index})" >
             </li>
             `;
     });
     fullList.innerHTML = newList;
+}
+
+function delItem(index){
+    tasks.splice(index, 1);
+    renderTasks();
+}
+
+function taskDone(index){
+    tasks[index].done = !tasks[index].done;
+    renderTasks();
+
 }
 
 button.addEventListener('click', addTask);

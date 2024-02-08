@@ -74,5 +74,9 @@ img {
     cursor: pointer;
 
 }
+.complete{
+    background-color: #00cc33b4;
+    text-decoration: line-through;
+}
 
 
