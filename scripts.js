@@ -5,6 +5,10 @@ const fullList = document.querySelector('.list-tasks');
 let tasks = [];
 
 function addTask() {
+    if (input.value.trim() === "") {
+        return; // If the task item is null, the button does not work
+    }
+
     tasks.push({
         task: input.value,
         done: false
