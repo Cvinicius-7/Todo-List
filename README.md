@@ -12,11 +12,11 @@ use local storage to not lose data when page is refreshed
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Contact
-For any questions or feedback, you can reach out to the project maintainer:
+For any questions or feedback, you can reach out to the project maintainer:<br>
 
-Carlos Vinicius Pereira - Analysis and Sistems Development INFNET Student
-carlos.vpereira@al.infnet.edu.br
-https://www.linkedin.com/in/carlos-vin%C3%ADcius-pereira/
+Carlos Vinicius Pereira - Analysis and Sistems Development INFNET Student<br>
+e-mail: pcarlos.vpereira@al.infnet.edu.br<br>
+Linkedin: https://www.linkedin.com/in/carlos-vin%C3%ADcius-pereira/
 
 
 Happy task managing! 🚀
