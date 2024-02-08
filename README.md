@@ -10,6 +10,9 @@ use local storage to not lose data when page is refreshed
 
 ## MIT License
 This project is licensed under the MIT License - see the LICENSE file for details.
+## How to Use
+you can use this project, simply simply using your web browser, use the URL bellow :<br>
+
 
 ### Contact
 For any questions or feedback, you can reach out to the project maintainer:<br>
