@@ -6,7 +6,7 @@ let tasks = [];
 
 function addTask() {
     if (input.value.trim() === "") {
-        return; // If the task item is null, the button does not work
+        return; 
     }
 
     tasks.push({
