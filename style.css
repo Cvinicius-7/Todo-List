@@ -12,7 +12,7 @@ body {
 
 .container {
 
-    background-color: rgb(245, 239, 233);
+    background-color: rgba(250, 249, 249, 0.664);
     width: 500px;
     border-radius: 10px;
     padding: 20px;
@@ -34,7 +34,7 @@ body {
     border: none;
     border-radius: 10px;
     height: 40px;
-    background-color: #003329;
+    background-color: #005e4b;
     color: white;
     font-size: 17px;
     padding: 0 15px;
@@ -84,6 +84,8 @@ img {
 }
 
 .complete {
-    background-color: #00ad2ba9;
+    background-color: #005e4b;
     text-decoration: line-through;
+    color: white;
+    
 }
